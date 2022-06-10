@@ -1,0 +1,4 @@
+/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/inst/amd64-linux.gcc/bin/test_glut
+/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/inst/amd64-linux.gcc/lib/libRTTL.a
+/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/inst/amd64-linux.gcc/lib/libLRT.a
+/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/inst/amd64-linux.gcc/bin/rtview

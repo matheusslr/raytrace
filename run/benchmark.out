@@ -1,0 +1,34 @@
+this =0x55bb6419d740
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+initializing LRT ray tracer ...
+default BVH builder : binnedalldimssavespace
+
+
+Options:  automove = ;
+    files = thai_statue.obj;
+   frames = 200;
+ nthreads = 1;
+      res = [1920, 1080];
+
+Using memory framebuffer...
+Adding obj file: thai_statue.obj
+Using auto camera...
+num nodes in scene graph 1
+adding 4999996 vertices
+adding 10000000 triangles
+finalizing geometry
+vertices            4999996 (58593.7 KB)
+triangles           10000000 (117188 KB)
+texture coordinates 0 (0 KB)
+No materials -> create dummy material
+building index
+using BVH builder default
+build time 9.37856
+done
+sceneAABB =[[[-117.959,-195.497,-99.8228,0] ],[[117.252,205.549,103.342,0] ]]
+Rendering 200 frames... 
+Done
+
+real	2m31,489s
+user	5m30,319s
+sys	0m3,869s
