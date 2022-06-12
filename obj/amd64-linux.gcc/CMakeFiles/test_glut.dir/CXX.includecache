@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/../RTTL/common/RTEmulatedSSE.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/../RTTL/common/RTEmulatedSSE.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/../RTTL/common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/../RTTL/common/RTInclude.hxx
 stdio.h
 -
 stdlib.h
@@ -24,9 +24,9 @@ mathimf.h
 math.h
 -
 cmake_autoconfig.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/../RTTL/common/cmake_autoconfig.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/../RTTL/common/cmake_autoconfig.h
 non_cmake_config.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/../RTTL/common/non_cmake_config.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/../RTTL/common/non_cmake_config.h
 sys/malloc.h
 -
 malloc.h
@@ -40,7 +40,7 @@ limits
 sys/times.h
 -
 RTEmulatedSSE.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/../RTTL/common/RTEmulatedSSE.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/../RTTL/common/RTEmulatedSSE.hxx
 intrin.h
 -
 xmmintrin.h
@@ -52,13 +52,13 @@ sstream
 windows.h
 -
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/../RTTL/common/cmake_autoconfig.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/../RTTL/common/cmake_autoconfig.h
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/../RTTL/common/non_cmake_config.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/../RTTL/common/non_cmake_config.h
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/testglut.cxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/testglut.cxx
 ../RTTL/common/RTInclude.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/../RTTL/common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/../RTTL/common/RTInclude.hxx
 stdio.h
 -
 GL/gl.h

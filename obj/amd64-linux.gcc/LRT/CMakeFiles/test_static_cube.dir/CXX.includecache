@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/LRT/test/api_static_cube/static_cube.cxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/LRT/test/api_static_cube/static_cube.cxx
 LRT/include/lrt.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/LRT/test/api_static_cube/LRT/include/lrt.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/LRT/test/api_static_cube/LRT/include/lrt.h
 GL/gl.h
 -
 glut.h

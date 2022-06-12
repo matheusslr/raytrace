@@ -1,8 +1,8 @@
-# Install script for directory: /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView
+# Install script for directory: /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/inst/amd64-linux.gcc")
+  SET(CMAKE_INSTALL_PREFIX "/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/inst/amd64-linux.gcc")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,7 +38,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" MATCHES "^(Unspec
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/rtview"
          RPATH "")
   ENDIF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/rtview")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/bin/rtview")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/bin/rtview")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/rtview")
     IF(CMAKE_INSTALL_DO_STRIP)
       EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/rtview")

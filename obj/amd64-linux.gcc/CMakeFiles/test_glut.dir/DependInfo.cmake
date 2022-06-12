@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/testglut.cxx" "/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles/test_glut.dir/Testing/testglut.o"
+  "/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/testglut.cxx" "/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles/test_glut.dir/Testing/testglut.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,10 +1,9 @@
 #include "include/lrt.h"
 #include "FrameBuffer/GLTextureFB.hxx"
-#include <omp.h>
+
 namespace LRT
 {
 #define LRTAPIENTRY
-#define NUM_THREADS 4
 
   struct TileRenderer
   {
@@ -60,13 +59,11 @@ namespace LRT
              GL_RGBA,
              GL_UNSIGNED_BYTE,
              NULL);
-     #pragma omp parallel num_threads(NUM_THREADS)
-     {
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP);
-     }
+
     // enabling this texture unit
     glEnable(GL_TEXTURE_2D);
       }
@@ -76,8 +73,7 @@ namespace LRT
       const int tileSize = 32;
       unsigned char tile[tileSize][tileSize][4];
 
-  #pragma omp parallel for schedule(static) collapse(2) num_threads(NUM_THREADS)
-  for (int i=0;i<tileSize;i++)
+      for (int i=0;i<tileSize;i++)
     for (int j=0;j<tileSize;j++)
       {
         tile[i][j][3] = 255;
@@ -85,7 +81,6 @@ namespace LRT
         tile[i][j][1] = 255 * j / tileSize;
         tile[i][j][0] = 255;
       }
-    #pragma omp parallel for schedule(static) collapse(2) num_threads(NUM_THREADS)
       for (int ii=0;ii<(int)width;ii+=tileSize)
     for (int jj=0;jj<(int)height;jj+=tileSize)
       {

@@ -14,7 +14,6 @@ names ... */
 #include "../Triangle/Triangle.hxx"
 #include "Builder/Builder.hxx"
 #include "../Mesh/Mesh.hxx"
-#include <omp.h>
 
 #define MAX_BVH_STACK_DEPTH 64
 
@@ -370,11 +369,10 @@ namespace RTTL {
         int raySigns[3];
         int hitID = 0;
 
-        #pragma omp parallel for schedule(static) num_threads(3)
-        for(int i=0; i<3; i++)
-        {
-            raySigns[i] = _mm_movemask_ps(packet.directionX(0)) == 0 ? 0 : 1;
-        }
+        raySigns[0] = _mm_movemask_ps(packet.directionX(0)) == 0 ? 0 : 1;
+        raySigns[1] = _mm_movemask_ps(packet.directionY(0)) == 0 ? 0 : 1;
+        raySigns[2] = _mm_movemask_ps(packet.directionZ(0)) == 0 ? 0 : 1;
+
         sptr->bvhIndex = 0;
         sptr->fastHitID = hitID;
         sptr++;
@@ -385,7 +383,6 @@ namespace RTTL {
         const unsigned int signsMaxX = _mm_movemask_ps(packet.reciprocalMax(0));
         const unsigned int signsMaxY = _mm_movemask_ps(packet.reciprocalMax(1));
         const unsigned int signsMaxZ = _mm_movemask_ps(packet.reciprocalMax(2));
-        
 
         const bool sameSigns =
             (signsMaxX == 0xf || signsMinX == 0x0) &&
@@ -411,25 +408,20 @@ start_traverse_diff_signs:
                     const AABB &entry = bvh[index];
                     const sse_f m_min = entry.min_f();
                     const sse_f m_max = entry.max_f();
-                    
                     sse_f min_x = _mm_shuffle_ps(m_min,m_min,_MM_SHUFFLE(0, 0, 0, 0));
                     sse_f min_y = _mm_shuffle_ps(m_min,m_min,_MM_SHUFFLE(1, 1, 1, 1));
                     sse_f min_z = _mm_shuffle_ps(m_min,m_min,_MM_SHUFFLE(2, 2, 2, 2));
                     sse_f max_x = _mm_shuffle_ps(m_max,m_max,_MM_SHUFFLE(0, 0, 0, 0));
                     sse_f max_y = _mm_shuffle_ps(m_max,m_max,_MM_SHUFFLE(1, 1, 1, 1));
                     sse_f max_z = _mm_shuffle_ps(m_max,m_max,_MM_SHUFFLE(2, 2, 2, 2));
-                    
                     if (!MULTIPLE_ORIGINS)
                     {
-                      //#pragma omp parallel num_threads(6)
-                        {
-                            min_x = min_x - packet.originX(0);
-                            min_y = min_y - packet.originY(0);
-                            min_z = min_z - packet.originZ(0);
-                            max_x = max_x - packet.originX(0);
-                            max_y = max_y - packet.originY(0);
-                            max_z = max_z - packet.originZ(0);
-                        }
+                        min_x = min_x - packet.originX(0);
+                        min_y = min_y - packet.originY(0);
+                        min_z = min_z - packet.originZ(0);
+                        max_x = max_x - packet.originX(0);
+                        max_y = max_y - packet.originY(0);
+                        max_z = max_z - packet.originZ(0);
                     }
                     if (RayPacketIntersectAABB<N, LAYOUT, MULTIPLE_ORIGINS, SHADOW_RAYS, false>
                         (packet,hitID,min_x,max_x,min_y,max_y,min_z,max_z) == 0) // early hit
@@ -462,7 +454,6 @@ start_traverse_diff_signs:
                 const AABB &entry = bvh[index];
                 const unsigned int items = entry.items();
                 int *start = (int*)item + entry.itemOffset();
-
                 for (unsigned int i=0;i<items;i++)
                 {
                     BVH_STAT_COLLECTOR(BVHStatCollector::global.numPrimitiveIntersections++);
@@ -497,8 +488,6 @@ start_traverse_diff_signs:
                 minX = maxX = packet.originX(0);
                 minY = maxY = packet.originY(0);
                 minZ = maxZ = packet.originZ(0);
-
-                #pragma omp parallel for schedule(static) num_threads(N)
                 for (int i=1;i<N;i++)
                 {
                   minX = min(minX,packet.originX(i));
@@ -616,15 +605,12 @@ start_traverse_same_signs:
                     _MM_SHUFFLE(2, 2, 2, 2));
                 if (!MULTIPLE_ORIGINS)
                 {
-                    //#pragma omp parallel num_threads(6)
-                    {
-                        min_x = min_x - packet.originX(0);
-                        min_y = min_y - packet.originY(0);
-                        min_z = min_z - packet.originZ(0);
-                        max_x = max_x - packet.originX(0);
-                        max_y = max_y - packet.originY(0);
-                        max_z = max_z - packet.originZ(0);
-                    }
+                    min_x = min_x - packet.originX(0);
+                    min_y = min_y - packet.originY(0);
+                    min_z = min_z - packet.originZ(0);
+                    max_x = max_x - packet.originX(0);
+                    max_y = max_y - packet.originY(0);
+                    max_z = max_z - packet.originZ(0);
                 }
                 for (int i=hitID;i<N;i++) {
                     if (RayPacketIntersectAABB
@@ -636,9 +622,6 @@ start_traverse_same_signs:
                 const AABB &entry = bvh[index];
                 const unsigned int items = entry.items();
                 int *start = (int*)item + entry.itemOffset();
-
-                //#pragma omp parallel for num_threads(32) \
-                    reduction (+: global.numPrimitiveIntersections)
                 for (unsigned int i=0;i<items;i++)
                 {
                     BVH_STAT_COLLECTOR(BVHStatCollector::global.numPrimitiveIntersections++);
@@ -650,7 +633,6 @@ start_traverse_same_signs:
                 const AABB &entry = bvh[index];
                 const unsigned int items = entry.items();
                 int *start = (int*)item + entry.itemOffset();
-
                 for (unsigned int i=0;i<items;i++)
                 {
                     BVH_STAT_COLLECTOR(BVHStatCollector::global.numPrimitiveIntersections++);
@@ -677,11 +659,10 @@ start_traverse_same_signs:
         int raySigns[3];
         int hitID = 0;
 
-        #pragma omp parallel for num_threads(3)
-        for(int i=0; i<3; i++)
-        {
-            raySigns[i] = _mm_movemask_ps(packet.directionX(0)) == 0 ? 0 : 1;
-        }
+        raySigns[0] = _mm_movemask_ps(packet.directionX(0)) == 0 ? 0 : 1;
+        raySigns[1] = _mm_movemask_ps(packet.directionY(0)) == 0 ? 0 : 1;
+        raySigns[2] = _mm_movemask_ps(packet.directionZ(0)) == 0 ? 0 : 1;
+
         sptr->bvhIndex = 0;
         sptr->fastHitID = hitID;
         sptr++;
@@ -692,7 +673,6 @@ start_traverse_same_signs:
         const unsigned int signsMaxX = _mm_movemask_ps(packet.reciprocalMax(0));
         const unsigned int signsMaxY = _mm_movemask_ps(packet.reciprocalMax(1));
         const unsigned int signsMaxZ = _mm_movemask_ps(packet.reciprocalMax(2));
-        
 
         const bool sameSigns =
             (signsMaxX == 0xf || signsMinX == 0x0) &&
@@ -718,25 +698,20 @@ start_traverse_diff_signs:
                     const AABB &entry = bvh[index];
                     const sse_f m_min = entry.min_f();
                     const sse_f m_max = entry.max_f();
-
                     sse_f min_x = _mm_shuffle_ps(m_min,m_min,_MM_SHUFFLE(0, 0, 0, 0));
                     sse_f min_y = _mm_shuffle_ps(m_min,m_min,_MM_SHUFFLE(1, 1, 1, 1));
                     sse_f min_z = _mm_shuffle_ps(m_min,m_min,_MM_SHUFFLE(2, 2, 2, 2));
                     sse_f max_x = _mm_shuffle_ps(m_max,m_max,_MM_SHUFFLE(0, 0, 0, 0));
                     sse_f max_y = _mm_shuffle_ps(m_max,m_max,_MM_SHUFFLE(1, 1, 1, 1));
                     sse_f max_z = _mm_shuffle_ps(m_max,m_max,_MM_SHUFFLE(2, 2, 2, 2));
-                    
                     if (!MULTIPLE_ORIGINS)
                     {
-                        //#pragma omp parallel num_threads(6)
-                        {
-                            min_x = min_x - packet.originX(0);
-                            min_y = min_y - packet.originY(0);
-                            min_z = min_z - packet.originZ(0);
-                            max_x = max_x - packet.originX(0);
-                            max_y = max_y - packet.originY(0);
-                            max_z = max_z - packet.originZ(0);
-                        }
+                        min_x = min_x - packet.originX(0);
+                        min_y = min_y - packet.originY(0);
+                        min_z = min_z - packet.originZ(0);
+                        max_x = max_x - packet.originX(0);
+                        max_y = max_y - packet.originY(0);
+                        max_z = max_z - packet.originZ(0);
                     }
                     if (RayPacketIntersectAABB<N, LAYOUT, MULTIPLE_ORIGINS, SHADOW_RAYS, false>
                         (packet,hitID,min_x,max_x,min_y,max_y,min_z,max_z) == 0) // early hit
@@ -769,7 +744,6 @@ start_traverse_diff_signs:
                 const AABB &entry = bvh[index];
                 const unsigned int items = entry.items();
                 int *start = (int*)item + entry.itemOffset();
-
                 for (unsigned int i=0;i<items;i++)
                 {
                     BVH_STAT_COLLECTOR(BVHStatCollector::global.numPrimitiveIntersections++);
@@ -804,8 +778,6 @@ start_traverse_diff_signs:
                 minX = maxX = packet.originX(0);
                 minY = maxY = packet.originY(0);
                 minZ = maxZ = packet.originZ(0);
-
-                #pragma omp parallel for schedule(dynamic) num_threads(N)
                 for (int i=1;i<N;i++)
                 {
                   minX = min(minX,packet.originX(i));
@@ -846,15 +818,12 @@ start_traverse_same_signs:
                         _MM_SHUFFLE(2, 2, 2, 2));
                     if (!MULTIPLE_ORIGINS)
                     {
-                        //#pragma omp parallel num_threads(6)
-                        {
-                            min_x = min_x - packet.originX(0);
-                            min_y = min_y - packet.originY(0);
-                            min_z = min_z - packet.originZ(0);
-                            max_x = max_x - packet.originX(0);
-                            max_y = max_y - packet.originY(0);
-                            max_z = max_z - packet.originZ(0);
-                        }
+                        min_x = min_x - packet.originX(0);
+                        min_y = min_y - packet.originY(0);
+                        min_z = min_z - packet.originZ(0);
+                        max_x = max_x - packet.originX(0);
+                        max_y = max_y - packet.originY(0);
+                        max_z = max_z - packet.originZ(0);
                     }
 
                     if (RayPacketIntersectAABB
@@ -926,15 +895,12 @@ start_traverse_same_signs:
                     _MM_SHUFFLE(2, 2, 2, 2));
                 if (!MULTIPLE_ORIGINS)
                 {
-                    //#pragma omp parallel num_threads(6)
-                    {
-                        min_x = min_x - packet.originX(0);
-                        min_y = min_y - packet.originY(0);
-                        min_z = min_z - packet.originZ(0);
-                        max_x = max_x - packet.originX(0);
-                        max_y = max_y - packet.originY(0);
-                        max_z = max_z - packet.originZ(0);
-                    }
+                    min_x = min_x - packet.originX(0);
+                    min_y = min_y - packet.originY(0);
+                    min_z = min_z - packet.originZ(0);
+                    max_x = max_x - packet.originX(0);
+                    max_y = max_y - packet.originY(0);
+                    max_z = max_z - packet.originZ(0);
                 }
                 for (int i=hitID;i<N;i++) {
                     if (RayPacketIntersectAABB
@@ -957,7 +923,6 @@ start_traverse_same_signs:
                 const AABB &entry = bvh[index];
                 const unsigned int items = entry.items();
                 int *start = (int*)item + entry.itemOffset();
-
                 for (unsigned int i=0;i<items;i++)
                 {
                     BVH_STAT_COLLECTOR(BVHStatCollector::global.numPrimitiveIntersections++);
@@ -985,22 +950,20 @@ start_traverse_same_signs:
         int raySigns[3];
         int hitID = 0;
 
-        #pragma omp parallel for schedule(static) num_threads(3)
-        for(int i=0; i<3; i++)
-        {
-            raySigns[i] = _mm_movemask_ps(packet.directionX(0)) == 0 ? 0 : 1;
-        }
+        raySigns[0] = _mm_movemask_ps(packet.directionX(0)) == 0 ? 0 : 1;
+        raySigns[1] = _mm_movemask_ps(packet.directionY(0)) == 0 ? 0 : 1;
+        raySigns[2] = _mm_movemask_ps(packet.directionZ(0)) == 0 ? 0 : 1;
+
         sptr->bvhIndex = 0;
         sptr->fastHitID = hitID;
         sptr++;
-        
+
         const unsigned int signsMinX = _mm_movemask_ps(packet.reciprocalMin(0));
         const unsigned int signsMinY = _mm_movemask_ps(packet.reciprocalMin(1));
         const unsigned int signsMinZ = _mm_movemask_ps(packet.reciprocalMin(2));
         const unsigned int signsMaxX = _mm_movemask_ps(packet.reciprocalMax(0));
         const unsigned int signsMaxY = _mm_movemask_ps(packet.reciprocalMax(1));
         const unsigned int signsMaxZ = _mm_movemask_ps(packet.reciprocalMax(2));
-        
 
         const bool sameSigns =
             (signsMaxX == 0xf || signsMinX == 0x0) &&
@@ -1026,25 +989,20 @@ start_traverse_diff_signs:
                     const AABB &entry = bvh[index];
                     const sse_f m_min = entry.min_f();
                     const sse_f m_max = entry.max_f();
-                    
                     sse_f min_x = _mm_shuffle_ps(m_min,m_min,_MM_SHUFFLE(0, 0, 0, 0));
                     sse_f min_y = _mm_shuffle_ps(m_min,m_min,_MM_SHUFFLE(1, 1, 1, 1));
                     sse_f min_z = _mm_shuffle_ps(m_min,m_min,_MM_SHUFFLE(2, 2, 2, 2));
                     sse_f max_x = _mm_shuffle_ps(m_max,m_max,_MM_SHUFFLE(0, 0, 0, 0));
                     sse_f max_y = _mm_shuffle_ps(m_max,m_max,_MM_SHUFFLE(1, 1, 1, 1));
                     sse_f max_z = _mm_shuffle_ps(m_max,m_max,_MM_SHUFFLE(2, 2, 2, 2));
-                    
                     if (!MULTIPLE_ORIGINS)
                     {
-                        //#pragma omp parallel num_threads(6)
-                        {
-                            min_x = min_x - packet.originX(0);
-                            min_y = min_y - packet.originY(0);
-                            min_z = min_z - packet.originZ(0);
-                            max_x = max_x - packet.originX(0);
-                            max_y = max_y - packet.originY(0);
-                            max_z = max_z - packet.originZ(0);
-                        }
+                        min_x = min_x - packet.originX(0);
+                        min_y = min_y - packet.originY(0);
+                        min_z = min_z - packet.originZ(0);
+                        max_x = max_x - packet.originX(0);
+                        max_y = max_y - packet.originY(0);
+                        max_z = max_z - packet.originZ(0);
                     }
                     if (RayPacketIntersectAABB<N, LAYOUT, MULTIPLE_ORIGINS, SHADOW_RAYS, false>
                         (packet,hitID,min_x,max_x,min_y,max_y,min_z,max_z) == 0) // early hit
@@ -1077,7 +1035,6 @@ start_traverse_diff_signs:
                 const AABB &entry = bvh[index];
                 const unsigned int items = entry.items();
                 int *start = (int*)item + entry.itemOffset();
-
                 for (unsigned int i=0;i<items;i++)
                 {
                     BVH_STAT_COLLECTOR(BVHStatCollector::global.numPrimitiveIntersections++);
@@ -1112,8 +1069,6 @@ start_traverse_diff_signs:
                 minX = maxX = packet.originX(0);
                 minY = maxY = packet.originY(0);
                 minZ = maxZ = packet.originZ(0);
-
-                //#pragma omp parallel for schedule(dynamic) num_threads(32)
                 for (int i=1;i<N;i++)
                 {
                   minX = min(minX,packet.originX(i));
@@ -1152,19 +1107,14 @@ start_traverse_same_signs:
                         _MM_SHUFFLE(1, 1, 1, 1));
                     sse_f max_z = _mm_shuffle_ps(t[raySigns[2]^1],t[raySigns[2]^1],
                         _MM_SHUFFLE(2, 2, 2, 2));
-
-                        
                     if (!MULTIPLE_ORIGINS)
                     {
-                        //#pragma omp parallel num_threads(6)
-                        {
-                            min_x = min_x - packet.originX(0);
-                            min_y = min_y - packet.originY(0);
-                            min_z = min_z - packet.originZ(0);
-                            max_x = max_x - packet.originX(0);
-                            max_y = max_y - packet.originY(0);
-                            max_z = max_z - packet.originZ(0);
-                        }
+                        min_x = min_x - packet.originX(0);
+                        min_y = min_y - packet.originY(0);
+                        min_z = min_z - packet.originZ(0);
+                        max_x = max_x - packet.originX(0);
+                        max_y = max_y - packet.originY(0);
+                        max_z = max_z - packet.originZ(0);
                     }
 
                     if (RayPacketIntersectAABB
@@ -1236,15 +1186,12 @@ start_traverse_same_signs:
                     _MM_SHUFFLE(2, 2, 2, 2));
                 if (!MULTIPLE_ORIGINS)
                 {
-                    //#pragma omp parallel num_threads(6)
-                    {
-                        min_x = min_x - packet.originX(0);
-                        min_y = min_y - packet.originY(0);
-                        min_z = min_z - packet.originZ(0);
-                        max_x = max_x - packet.originX(0);
-                        max_y = max_y - packet.originY(0);
-                        max_z = max_z - packet.originZ(0);
-                    }
+                    min_x = min_x - packet.originX(0);
+                    min_y = min_y - packet.originY(0);
+                    min_z = min_z - packet.originZ(0);
+                    max_x = max_x - packet.originX(0);
+                    max_y = max_y - packet.originY(0);
+                    max_z = max_z - packet.originZ(0);
                 }
                 for (int i=hitID;i<N;i++) {
                     if (RayPacketIntersectAABB
@@ -1256,8 +1203,6 @@ start_traverse_same_signs:
                 const AABB &entry = bvh[index];
                 const unsigned int items = entry.items();
                 int *start = (int*)item + entry.itemOffset();
-                //#pragma omp parallel for num_threads(32) \
-                    reduction (+: global.numPrimitiveIntersections)
                 for (unsigned int i=0;i<items;i++)
                 {
                     BVH_STAT_COLLECTOR(BVHStatCollector::global.numPrimitiveIntersections++);
@@ -1269,7 +1214,6 @@ start_traverse_same_signs:
                 const AABB &entry = bvh[index];
                 const unsigned int items = entry.items();
                 int *start = (int*)item + entry.itemOffset();
-
                 for (unsigned int i=0;i<items;i++)
                 {
                     BVH_STAT_COLLECTOR(BVHStatCollector::global.numPrimitiveIntersections++);

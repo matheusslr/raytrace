@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/test/TestOptions/TestOptions.cxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/test/TestOptions/TestOptions.cxx
 RTTL/common/MapOptions.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/test/TestOptions/RTTL/common/MapOptions.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/test/TestOptions/RTTL/common/MapOptions.hxx
 math.h
 -
 

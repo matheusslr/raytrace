@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/test/api_vertex_conversion/vertex_conversion.cxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/test/api_vertex_conversion/vertex_conversion.cxx
 RTTL/API/rt.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/test/api_vertex_conversion/RTTL/API/rt.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/test/api_vertex_conversion/RTTL/API/rt.h
 
 /usr/include/alloca.h
 features.h

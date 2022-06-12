@@ -6,75 +6,75 @@
 
 #IncludeRegexTransform: 
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/API/ISG.cxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/API/ISG.cxx
 RTTL/API/ISG.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/API/RTTL/API/ISG.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/API/RTTL/API/ISG.hxx
 LRT/include/lrt.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/API/LRT/include/lrt.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/API/LRT/include/lrt.h
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTVec.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTVec.hxx
 RTInclude.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTInclude.hxx
 fstream
 -
 RTSSE.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTSSE.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTSSE.hxx
 RTData.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTData.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTData.hxx
 RTVecBody.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTVecBody.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTVecBody.h
 RTVecBody.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTVecBody.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTVecBody.h
 RTVecBody.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTVecBody.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTVecBody.h
 RTVecBody.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTVecBody.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTVecBody.h
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/Timer.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/Timer.hxx
 RTInclude.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTInclude.hxx
 unistd.h
 -
 sys/time.h
 -
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/Mesh.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/Mesh.hxx
 ../common/RTInclude.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTInclude.hxx
 ../common/RTVec.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTVec.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTVec.hxx
 ../common/RTBox.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTBox.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/RTBox.hxx
 ../common/Timer.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/Timer.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../common/Timer.hxx
 ../Triangle/Triangle.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../Triangle/Triangle.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/../Triangle/Triangle.hxx
 vector
 -
 map
 -
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Triangle/Triangle.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Triangle/Triangle.hxx
 ../common/RTInclude.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Triangle/../common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Triangle/../common/RTInclude.hxx
 ../common/RTBox.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Triangle/../common/RTBox.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Triangle/../common/RTBox.hxx
 ../common/RTRay.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Triangle/../common/RTRay.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Triangle/../common/RTRay.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTBox.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTBox.hxx
 RTVec.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTVec.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTVec.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTData.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTData.hxx
 RTDataAligned.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTDataAligned.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTDataAligned.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTDataAligned.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTDataAligned.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTEmulatedSSE.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTEmulatedSSE.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTInclude.hxx
 stdio.h
 -
 stdlib.h
@@ -90,9 +90,9 @@ mathimf.h
 math.h
 -
 cmake_autoconfig.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/cmake_autoconfig.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/cmake_autoconfig.h
 non_cmake_config.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/non_cmake_config.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/non_cmake_config.h
 sys/malloc.h
 -
 malloc.h
@@ -106,7 +106,7 @@ limits
 sys/times.h
 -
 RTEmulatedSSE.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTEmulatedSSE.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTEmulatedSSE.hxx
 intrin.h
 -
 xmmintrin.h
@@ -118,131 +118,129 @@ sstream
 windows.h
 -
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTIntervalArith.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTIntervalArith.hxx
 RTVec.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTVec.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTVec.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTRay.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTRay.hxx
 RTBox.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTBox.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTBox.hxx
 vector
 -
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTSSE.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTSSE.hxx
 float.h
 -
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTVec.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTVec.hxx
 RTInclude.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTInclude.hxx
 fstream
 -
 RTSSE.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTSSE.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTSSE.hxx
 RTData.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTData.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTData.hxx
 RTVecBody.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTVecBody.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTVecBody.h
 RTVecBody.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTVecBody.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTVecBody.h
 RTVecBody.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTVecBody.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTVecBody.h
 RTVecBody.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTVecBody.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTVecBody.h
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTVecBody.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTVecBody.h
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/cmake_autoconfig.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/cmake_autoconfig.h
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/non_cmake_config.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/non_cmake_config.h
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/BVH.cxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/BVH.cxx
 BVH.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/BVH.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/BVH.hxx
 Builder/Builder.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Builder.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Builder.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/BVH.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/BVH.hxx
 ../common/RTInclude.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTInclude.hxx
 ../common/RTBox.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTBox.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTBox.hxx
 ../common/RTRay.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTRay.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTRay.hxx
 ../common/RTIntervalArith.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTIntervalArith.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../common/RTIntervalArith.hxx
 ../Triangle/Triangle.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Triangle/Triangle.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Triangle/Triangle.hxx
 Builder/Builder.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Builder.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Builder.hxx
 ../Mesh/Mesh.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/Mesh.hxx
-omp.h
--
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/../Mesh/Mesh.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTVec.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTVec.hxx
 RTInclude.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTInclude.hxx
 fstream
 -
 RTSSE.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTSSE.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTSSE.hxx
 RTData.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTData.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTData.hxx
 RTVecBody.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTVecBody.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTVecBody.h
 RTVecBody.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTVecBody.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTVecBody.h
 RTVecBody.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTVecBody.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTVecBody.h
 RTVecBody.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTVecBody.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTVecBody.h
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/Timer.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/Timer.hxx
 RTInclude.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTInclude.hxx
 unistd.h
 -
 sys/time.h
 -
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/Mesh.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/Mesh.hxx
 ../common/RTInclude.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTInclude.hxx
 ../common/RTVec.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTVec.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTVec.hxx
 ../common/RTBox.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTBox.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/RTBox.hxx
 ../common/Timer.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/Timer.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../common/Timer.hxx
 ../Triangle/Triangle.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../Triangle/Triangle.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/../Triangle/Triangle.hxx
 vector
 -
 map
 -
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Triangle/Triangle.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Triangle/Triangle.hxx
 ../common/RTInclude.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Triangle/../common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Triangle/../common/RTInclude.hxx
 ../common/RTBox.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Triangle/../common/RTBox.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Triangle/../common/RTBox.hxx
 ../common/RTRay.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Triangle/../common/RTRay.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Triangle/../common/RTRay.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTBox.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTBox.hxx
 RTVec.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTVec.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTVec.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTData.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTData.hxx
 RTDataAligned.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTDataAligned.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTDataAligned.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTDataAligned.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTDataAligned.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTEmulatedSSE.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTEmulatedSSE.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTInclude.hxx
 stdio.h
 -
 stdlib.h
@@ -258,9 +256,9 @@ mathimf.h
 math.h
 -
 cmake_autoconfig.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/cmake_autoconfig.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/cmake_autoconfig.h
 non_cmake_config.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/non_cmake_config.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/non_cmake_config.h
 sys/malloc.h
 -
 malloc.h
@@ -274,7 +272,7 @@ limits
 sys/times.h
 -
 RTEmulatedSSE.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTEmulatedSSE.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTEmulatedSSE.hxx
 intrin.h
 -
 xmmintrin.h
@@ -286,131 +284,129 @@ sstream
 windows.h
 -
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTIntervalArith.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTIntervalArith.hxx
 RTVec.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTVec.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTVec.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTRay.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTRay.hxx
 RTBox.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTBox.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTBox.hxx
 vector
 -
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTSSE.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTSSE.hxx
 float.h
 -
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTVec.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTVec.hxx
 RTInclude.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTInclude.hxx
 fstream
 -
 RTSSE.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTSSE.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTSSE.hxx
 RTData.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTData.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTData.hxx
 RTVecBody.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTVecBody.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTVecBody.h
 RTVecBody.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTVecBody.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTVecBody.h
 RTVecBody.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTVecBody.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTVecBody.h
 RTVecBody.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTVecBody.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTVecBody.h
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTVecBody.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTVecBody.h
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/cmake_autoconfig.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/cmake_autoconfig.h
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/non_cmake_config.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/non_cmake_config.h
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../BVH.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../BVH.hxx
 ../common/RTInclude.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTInclude.hxx
 ../common/RTBox.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTBox.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTBox.hxx
 ../common/RTRay.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTRay.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTRay.hxx
 ../common/RTIntervalArith.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTIntervalArith.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../common/RTIntervalArith.hxx
 ../Triangle/Triangle.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Triangle/Triangle.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Triangle/Triangle.hxx
 Builder/Builder.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../Builder/Builder.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../Builder/Builder.hxx
 ../Mesh/Mesh.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/Mesh.hxx
-omp.h
--
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../../Mesh/Mesh.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../Builder/Builder.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../Builder/Builder.hxx
 ../BVH.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../Builder/../BVH.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../Builder/../BVH.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/BinnedAllDims.cxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/BinnedAllDims.cxx
 BinnedAllDims.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/BinnedAllDims.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/BinnedAllDims.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/BinnedAllDims.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/BinnedAllDims.hxx
 Builder.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Builder.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Builder.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/BinnedAllDimsSaveSpace.cxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/BinnedAllDimsSaveSpace.cxx
 BinnedAllDimsSaveSpace.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/BinnedAllDimsSaveSpace.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/BinnedAllDimsSaveSpace.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/BinnedAllDimsSaveSpace.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/BinnedAllDimsSaveSpace.hxx
 Builder.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Builder.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Builder.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Builder.cxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Builder.cxx
 cstring
 -
 RTTL/BVH/BVH.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/RTTL/BVH/BVH.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/RTTL/BVH/BVH.hxx
 Sweep.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Sweep.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Sweep.hxx
 BinnedAllDims.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/BinnedAllDims.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/BinnedAllDims.hxx
 BinnedAllDimsSaveSpace.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/BinnedAllDimsSaveSpace.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/BinnedAllDimsSaveSpace.hxx
 OnDemandBuilder.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/OnDemandBuilder.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/OnDemandBuilder.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Builder.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Builder.hxx
 ../BVH.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../BVH.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/../BVH.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/OnDemandBuilder.cxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/OnDemandBuilder.cxx
 OnDemandBuilder.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/OnDemandBuilder.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/OnDemandBuilder.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/OnDemandBuilder.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/OnDemandBuilder.hxx
 BinnedAllDimsSaveSpace.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/BinnedAllDimsSaveSpace.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/BinnedAllDimsSaveSpace.hxx
 RTTL/Mesh/Mesh.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/RTTL/Mesh/Mesh.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/RTTL/Mesh/Mesh.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Sweep.cxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Sweep.cxx
 Sweep.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Sweep.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Sweep.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Sweep.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Sweep.hxx
 Builder.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Builder.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/BVH/Builder/Builder.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/common/MapOptions.cxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/common/MapOptions.cxx
 cstring
 -
 RTTL/common/MapOptions.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/common/RTTL/common/MapOptions.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/common/RTTL/common/MapOptions.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/common/RTThread.cxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/common/RTThread.cxx
 cstring
 -
 cerrno
 -
 RTTL/common/RTThread.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/common/RTTL/common/RTThread.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/common/RTTL/common/RTThread.hxx
 
 /usr/include/alloca.h
 features.h
@@ -863,8 +859,6 @@ Builder/Builder.hxx
 RTTL/BVH/Builder/Builder.hxx
 ../Mesh/Mesh.hxx
 RTTL/BVH/../Mesh/Mesh.hxx
-omp.h
--
 
 RTTL/BVH/Builder/../BVH.hxx
 ../common/RTInclude.hxx
@@ -881,8 +875,6 @@ Builder/Builder.hxx
 RTTL/BVH/Builder/../Builder/Builder.hxx
 ../Mesh/Mesh.hxx
 RTTL/BVH/Builder/../../Mesh/Mesh.hxx
-omp.h
--
 
 RTTL/BVH/Builder/Builder.hxx
 ../BVH.hxx

@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/test/TestRTVec/TestRTVec.cxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/test/TestRTVec/TestRTVec.cxx
 time.h
 -
 RTTL/common/RTBox.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/test/TestRTVec/RTTL/common/RTBox.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/test/TestRTVec/RTTL/common/RTBox.hxx
 RTTL/common/Timer.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/test/TestRTVec/RTTL/common/Timer.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/test/TestRTVec/RTTL/common/Timer.hxx
 RTTL/common/RTcoutRedirect.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/test/TestRTVec/RTTL/common/RTcoutRedirect.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/test/TestRTVec/RTTL/common/RTcoutRedirect.hxx
 
 /usr/include/alloca.h
 features.h

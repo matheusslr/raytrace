@@ -6,21 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/Camera.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/Camera.hxx
 RTTL/common/RTInclude.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/RTInclude.hxx
 RTTL/common/RTVec.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/RTVec.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/RTVec.hxx
 RTTL/common/RTMatrix.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/RTMatrix.hxx
-omp.h
--
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/RTMatrix.hxx
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/ImagePPM.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/ImagePPM.hxx
 RTTL/common/RTInclude.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/RTInclude.hxx
 RTTL/common/RTVec.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/RTVec.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/RTVec.hxx
 vector
 -
 fstream
@@ -28,15 +26,15 @@ fstream
 string
 -
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/ObjParser.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/ObjParser.hxx
 RTTL/common/RTInclude.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/RTInclude.hxx
 RTTL/common/RTVec.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/RTVec.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/RTVec.hxx
 RTTL/common/RTShader.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/RTShader.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/RTShader.hxx
 ImagePPM.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/ImagePPM.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/ImagePPM.hxx
 map
 -
 set
@@ -50,39 +48,37 @@ fstream
 string
 -
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/rtview.cxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/rtview.cxx
 RTTL/common/RTInclude.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/RTInclude.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/RTInclude.hxx
 LRT/include/lrt.h
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/LRT/include/lrt.h
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/LRT/include/lrt.h
 LRT/FrameBuffer.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/LRT/FrameBuffer.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/LRT/FrameBuffer.hxx
 LRT/FrameBuffer/PBOFrameBuffer.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/LRT/FrameBuffer/PBOFrameBuffer.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/LRT/FrameBuffer/PBOFrameBuffer.hxx
 Camera.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/Camera.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/Camera.hxx
 ObjParser.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/ObjParser.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/ObjParser.hxx
 RTTL/common/Timer.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/Timer.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/Timer.hxx
 RTTL/common/MapOptions.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/MapOptions.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/MiniView/RTTL/common/MapOptions.hxx
 string
 -
 stdlib.h
 -
 stdio.h
 -
-omp.h
--
 hooks.h
 -
 
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/common/MapOptions.cxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/common/MapOptions.cxx
 cstring
 -
 RTTL/common/MapOptions.hxx
-/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/common/RTTL/common/MapOptions.hxx
+/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/RTTL/common/RTTL/common/MapOptions.hxx
 
 /usr/include/GL/freeglut_std.h
 windows.h

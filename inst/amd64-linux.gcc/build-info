@@ -1,25 +1,25 @@
 PARSEC Compile Information
 ==========================
 Package 'parsec.raytrace'
-Built on qui jun 9 21:43:51 -03 2022
+Built on sáb jun 11 20:37:12 -03 2022
 
-Configure arguments:  --prefix=/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/inst/amd64-linux.gcc
+Configure arguments:  --prefix=/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/inst/amd64-linux.gcc
 
-Environment modifications: version=pthreads CXXFLAGS="-I/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/libs/mesa/inst/amd64-linux.gcc/include -pg -Wall -fopenmp -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions -fno-strict-aliasing -fno-align-labels -DNDEBUG -D_MM_NO_ALIGN_CHECK" LDFLAGS="-L/home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/libs/mesa/inst/amd64-linux.gcc/lib -L/usr/lib64 -L/usr/lib" LIBS=" -lGL -lGLU -lXmu -lXext -lXau -lX11 -ldl -lpthread"
+Environment modifications: version=pthreads CXXFLAGS="-I/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/libs/mesa/inst/amd64-linux.gcc/include -Wall -fopenmp -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions -fno-strict-aliasing -fno-align-labels -DNDEBUG -D_MM_NO_ALIGN_CHECK" LDFLAGS="-L/home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/libs/mesa/inst/amd64-linux.gcc/lib -L/usr/lib64 -L/usr/lib" LIBS=" -lGL -lGLU -lXmu -lXext -lXau -lX11 -ldl -lpthread"
 
 CC: /usr/bin/gcc
 Version: gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
 Copyright (C) 2017 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-CFLAGS: -pg -Wall -fopenmp -O3 -g -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206
+CFLAGS: -Wall -fopenmp -O3 -g -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206
 
 CXX: /usr/bin/g++
 Version: g++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
 Copyright (C) 2017 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-CXXFLAGS: -pg -Wall -fopenmp -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206
+CXXFLAGS: -Wall -fopenmp -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206
 
 CCAS: 
 Version: 

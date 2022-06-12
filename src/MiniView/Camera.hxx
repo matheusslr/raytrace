@@ -4,7 +4,7 @@
 #include "RTTL/common/RTInclude.hxx"
 #include "RTTL/common/RTVec.hxx"
 #include "RTTL/common/RTMatrix.hxx"
-#include <omp.h>
+
 using namespace RTTL;
 
 
@@ -22,12 +22,6 @@ public:
 
   _INLINE void initMatrix(const RTVec3f &origin,const RTVec3f &direction,const RTVec3f &up, const float viewAngle)
   {
-    RTVec3f ex;
-    RTVec3f ez;
-    RTVec3f ey;
-
-    #pragma omp parallel num_threads(4)
-    {
     RTVec3f ex = direction ^ up;
     ex.normalize();
     RTVec3f ez = ex ^ direction;
@@ -39,7 +33,6 @@ public:
     matrix.setCol(2,ez); //up
     matrix.setCol(3,origin); //view-pt
     angle = viewAngle;
-    }
   }
 
 

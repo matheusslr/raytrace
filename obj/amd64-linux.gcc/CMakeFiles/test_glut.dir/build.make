@@ -29,16 +29,16 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake
+CMAKE_COMMAND = /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake
 
 # The command to remove a file.
-RM = /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake -E remove -f
+RM = /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc
+CMAKE_SOURCE_DIR = /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc
+CMAKE_BINARY_DIR = /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test_glut.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/test_glut.dir/flags.make
 
 CMakeFiles/test_glut.dir/Testing/testglut.o: CMakeFiles/test_glut.dir/flags.make
 CMakeFiles/test_glut.dir/Testing/testglut.o: Testing/testglut.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test_glut.dir/Testing/testglut.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test_glut.dir/Testing/testglut.o -c /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/testglut.cxx
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test_glut.dir/Testing/testglut.o -c /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/testglut.cxx
 
 CMakeFiles/test_glut.dir/Testing/testglut.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_glut.dir/Testing/testglut.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/testglut.cxx > CMakeFiles/test_glut.dir/Testing/testglut.i
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/testglut.cxx > CMakeFiles/test_glut.dir/Testing/testglut.i
 
 CMakeFiles/test_glut.dir/Testing/testglut.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_glut.dir/Testing/testglut.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/testglut.cxx -o CMakeFiles/test_glut.dir/Testing/testglut.s
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/Testing/testglut.cxx -o CMakeFiles/test_glut.dir/Testing/testglut.s
 
 CMakeFiles/test_glut.dir/Testing/testglut.o.requires:
 .PHONY : CMakeFiles/test_glut.dir/Testing/testglut.o.requires
@@ -81,9 +81,9 @@ test_glut_OBJECTS = \
 test_glut_EXTERNAL_OBJECTS =
 
 bin/test_glut: CMakeFiles/test_glut.dir/Testing/testglut.o
-bin/test_glut: /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/libs/mesa/inst/amd64-linux.gcc/lib/libglut.a
-bin/test_glut: /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/libs/mesa/inst/amd64-linux.gcc/lib/libGLU.a
-bin/test_glut: /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/libs/mesa/inst/amd64-linux.gcc/lib/libGL.a
+bin/test_glut: /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/libs/mesa/inst/amd64-linux.gcc/lib/libglut.a
+bin/test_glut: /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/libs/mesa/inst/amd64-linux.gcc/lib/libGLU.a
+bin/test_glut: /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/libs/mesa/inst/amd64-linux.gcc/lib/libGL.a
 bin/test_glut: CMakeFiles/test_glut.dir/build.make
 bin/test_glut: CMakeFiles/test_glut.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable bin/test_glut"
@@ -101,6 +101,6 @@ CMakeFiles/test_glut.dir/clean:
 .PHONY : CMakeFiles/test_glut.dir/clean
 
 CMakeFiles/test_glut.dir/depend:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles/test_glut.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles/test_glut.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test_glut.dir/depend
 

@@ -41,16 +41,16 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake
+CMAKE_COMMAND = /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake
 
 # The command to remove a file.
-RM = /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake -E remove -f
+RM = /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc
+CMAKE_SOURCE_DIR = /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc
+CMAKE_BINARY_DIR = /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc
 
 #=============================================================================
 # Target rules for target CMakeFiles/test_glut.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps
 CMakeFiles/test_glut.dir/all:
 	$(MAKE) -f CMakeFiles/test_glut.dir/build.make CMakeFiles/test_glut.dir/depend
 	$(MAKE) -f CMakeFiles/test_glut.dir/build.make CMakeFiles/test_glut.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles  1
 	@echo "Built target test_glut"
 .PHONY : CMakeFiles/test_glut.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/test_glut.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_glut.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_glut.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
 .PHONY : CMakeFiles/test_glut.dir/rule
 
 # Convenience name for target.
@@ -117,7 +117,7 @@ RTTL/preinstall:
 RTTL/CMakeFiles/RTTL.dir/all:
 	$(MAKE) -f RTTL/CMakeFiles/RTTL.dir/build.make RTTL/CMakeFiles/RTTL.dir/depend
 	$(MAKE) -f RTTL/CMakeFiles/RTTL.dir/build.make RTTL/CMakeFiles/RTTL.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles  2 3 4 5 6 7 8 9 10
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles  2 3 4 5 6 7 8 9 10
 	@echo "Built target RTTL"
 .PHONY : RTTL/CMakeFiles/RTTL.dir/all
 
@@ -127,9 +127,9 @@ all: RTTL/CMakeFiles/RTTL.dir/all
 
 # Build rule for subdir invocation for target.
 RTTL/CMakeFiles/RTTL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 RTTL/CMakeFiles/RTTL.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
 .PHONY : RTTL/CMakeFiles/RTTL.dir/rule
 
 # Convenience name for target.
@@ -152,7 +152,7 @@ clean: RTTL/CMakeFiles/RTTL.dir/clean
 RTTL/CMakeFiles/TestOptions.dir/all: RTTL/CMakeFiles/RTTL.dir/all
 	$(MAKE) -f RTTL/CMakeFiles/TestOptions.dir/build.make RTTL/CMakeFiles/TestOptions.dir/depend
 	$(MAKE) -f RTTL/CMakeFiles/TestOptions.dir/build.make RTTL/CMakeFiles/TestOptions.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles  11
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles  11
 	@echo "Built target TestOptions"
 .PHONY : RTTL/CMakeFiles/TestOptions.dir/all
 
@@ -162,9 +162,9 @@ all: RTTL/CMakeFiles/TestOptions.dir/all
 
 # Build rule for subdir invocation for target.
 RTTL/CMakeFiles/TestOptions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 RTTL/CMakeFiles/TestOptions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
 .PHONY : RTTL/CMakeFiles/TestOptions.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ clean: RTTL/CMakeFiles/TestOptions.dir/clean
 RTTL/CMakeFiles/test_newmesh.dir/all: RTTL/CMakeFiles/RTTL.dir/all
 	$(MAKE) -f RTTL/CMakeFiles/test_newmesh.dir/build.make RTTL/CMakeFiles/test_newmesh.dir/depend
 	$(MAKE) -f RTTL/CMakeFiles/test_newmesh.dir/build.make RTTL/CMakeFiles/test_newmesh.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles  12
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles  12
 	@echo "Built target test_newmesh"
 .PHONY : RTTL/CMakeFiles/test_newmesh.dir/all
 
@@ -197,9 +197,9 @@ all: RTTL/CMakeFiles/test_newmesh.dir/all
 
 # Build rule for subdir invocation for target.
 RTTL/CMakeFiles/test_newmesh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 RTTL/CMakeFiles/test_newmesh.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
 .PHONY : RTTL/CMakeFiles/test_newmesh.dir/rule
 
 # Convenience name for target.
@@ -222,7 +222,7 @@ clean: RTTL/CMakeFiles/test_newmesh.dir/clean
 RTTL/CMakeFiles/test_rtvec.dir/all:
 	$(MAKE) -f RTTL/CMakeFiles/test_rtvec.dir/build.make RTTL/CMakeFiles/test_rtvec.dir/depend
 	$(MAKE) -f RTTL/CMakeFiles/test_rtvec.dir/build.make RTTL/CMakeFiles/test_rtvec.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles  13
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles  13
 	@echo "Built target test_rtvec"
 .PHONY : RTTL/CMakeFiles/test_rtvec.dir/all
 
@@ -232,9 +232,9 @@ all: RTTL/CMakeFiles/test_rtvec.dir/all
 
 # Build rule for subdir invocation for target.
 RTTL/CMakeFiles/test_rtvec.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 RTTL/CMakeFiles/test_rtvec.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
 .PHONY : RTTL/CMakeFiles/test_rtvec.dir/rule
 
 # Convenience name for target.
@@ -257,7 +257,7 @@ clean: RTTL/CMakeFiles/test_rtvec.dir/clean
 RTTL/CMakeFiles/test_vertex_conversion.dir/all: RTTL/CMakeFiles/RTTL.dir/all
 	$(MAKE) -f RTTL/CMakeFiles/test_vertex_conversion.dir/build.make RTTL/CMakeFiles/test_vertex_conversion.dir/depend
 	$(MAKE) -f RTTL/CMakeFiles/test_vertex_conversion.dir/build.make RTTL/CMakeFiles/test_vertex_conversion.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles  14
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles  14
 	@echo "Built target test_vertex_conversion"
 .PHONY : RTTL/CMakeFiles/test_vertex_conversion.dir/all
 
@@ -267,9 +267,9 @@ all: RTTL/CMakeFiles/test_vertex_conversion.dir/all
 
 # Build rule for subdir invocation for target.
 RTTL/CMakeFiles/test_vertex_conversion.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 RTTL/CMakeFiles/test_vertex_conversion.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
 .PHONY : RTTL/CMakeFiles/test_vertex_conversion.dir/rule
 
 # Convenience name for target.
@@ -309,7 +309,7 @@ LRT/preinstall:
 LRT/CMakeFiles/LRT.dir/all: RTTL/CMakeFiles/RTTL.dir/all
 	$(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/depend
 	$(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles  15 16 17 18 19
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles  15 16 17 18 19
 	@echo "Built target LRT"
 .PHONY : LRT/CMakeFiles/LRT.dir/all
 
@@ -319,9 +319,9 @@ all: LRT/CMakeFiles/LRT.dir/all
 
 # Build rule for subdir invocation for target.
 LRT/CMakeFiles/LRT.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 LRT/CMakeFiles/LRT.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
 .PHONY : LRT/CMakeFiles/LRT.dir/rule
 
 # Convenience name for target.
@@ -344,7 +344,7 @@ clean: LRT/CMakeFiles/LRT.dir/clean
 LRT/CMakeFiles/test_static_cube.dir/all: LRT/CMakeFiles/LRT.dir/all
 	$(MAKE) -f LRT/CMakeFiles/test_static_cube.dir/build.make LRT/CMakeFiles/test_static_cube.dir/depend
 	$(MAKE) -f LRT/CMakeFiles/test_static_cube.dir/build.make LRT/CMakeFiles/test_static_cube.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles  20
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles  20
 	@echo "Built target test_static_cube"
 .PHONY : LRT/CMakeFiles/test_static_cube.dir/all
 
@@ -354,9 +354,9 @@ all: LRT/CMakeFiles/test_static_cube.dir/all
 
 # Build rule for subdir invocation for target.
 LRT/CMakeFiles/test_static_cube.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 LRT/CMakeFiles/test_static_cube.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
 .PHONY : LRT/CMakeFiles/test_static_cube.dir/rule
 
 # Convenience name for target.
@@ -391,11 +391,11 @@ MiniView/preinstall:
 # Target rules for target MiniView/CMakeFiles/rtview.dir
 
 # All Build rule for target.
-MiniView/CMakeFiles/rtview.dir/all: LRT/CMakeFiles/LRT.dir/all
 MiniView/CMakeFiles/rtview.dir/all: RTTL/CMakeFiles/RTTL.dir/all
+MiniView/CMakeFiles/rtview.dir/all: LRT/CMakeFiles/LRT.dir/all
 	$(MAKE) -f MiniView/CMakeFiles/rtview.dir/build.make MiniView/CMakeFiles/rtview.dir/depend
 	$(MAKE) -f MiniView/CMakeFiles/rtview.dir/build.make MiniView/CMakeFiles/rtview.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles  21 22
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles  21 22
 	@echo "Built target rtview"
 .PHONY : MiniView/CMakeFiles/rtview.dir/all
 
@@ -405,9 +405,9 @@ all: MiniView/CMakeFiles/rtview.dir/all
 
 # Build rule for subdir invocation for target.
 MiniView/CMakeFiles/rtview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 MiniView/CMakeFiles/rtview.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
 .PHONY : MiniView/CMakeFiles/rtview.dir/rule
 
 # Convenience name for target.

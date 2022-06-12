@@ -33,16 +33,16 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake
+CMAKE_COMMAND = /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake
 
 # The command to remove a file.
-RM = /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake -E remove -f
+RM = /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc
+CMAKE_SOURCE_DIR = /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc
+CMAKE_BINARY_DIR = /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -50,7 +50,7 @@ CMAKE_BINARY_DIR = /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running interactive CMake command-line interface..."
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/LRT && /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake -i .
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/LRT && /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake -i .
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -60,19 +60,19 @@ edit_cache/fast: edit_cache
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/LRT && /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake -P cmake_install.cmake
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/LRT && /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/LRT && /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake -P cmake_install.cmake
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/LRT && /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/LRT && /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/LRT && /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
@@ -82,7 +82,7 @@ install/local/fast: install/local
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/LRT && /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/LRT && /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
@@ -101,7 +101,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/LRT && /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/LRT && /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/tools/cmake/inst/amd64-linux.gcc/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/LRT/CMakeFiles/progress.make
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f CMakeFiles/Makefile2 LRT/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/LRT/CMakeFiles/progress.make
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f CMakeFiles/Makefile2 LRT/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f CMakeFiles/Makefile2 LRT/clean
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f CMakeFiles/Makefile2 LRT/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f CMakeFiles/Makefile2 LRT/preinstall
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f CMakeFiles/Makefile2 LRT/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f CMakeFiles/Makefile2 LRT/preinstall
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f CMakeFiles/Makefile2 LRT/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 LRT/CMakeFiles/LRT.dir/rule:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f CMakeFiles/Makefile2 LRT/CMakeFiles/LRT.dir/rule
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f CMakeFiles/Makefile2 LRT/CMakeFiles/LRT.dir/rule
 .PHONY : LRT/CMakeFiles/LRT.dir/rule
 
 # Convenience name for target.
@@ -150,12 +150,12 @@ LRT: LRT/CMakeFiles/LRT.dir/rule
 
 # fast build rule for target.
 LRT/fast:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/build
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/build
 .PHONY : LRT/fast
 
 # Convenience name for target.
 LRT/CMakeFiles/test_static_cube.dir/rule:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f CMakeFiles/Makefile2 LRT/CMakeFiles/test_static_cube.dir/rule
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f CMakeFiles/Makefile2 LRT/CMakeFiles/test_static_cube.dir/rule
 .PHONY : LRT/CMakeFiles/test_static_cube.dir/rule
 
 # Convenience name for target.
@@ -164,97 +164,97 @@ test_static_cube: LRT/CMakeFiles/test_static_cube.dir/rule
 
 # fast build rule for target.
 test_static_cube/fast:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/test_static_cube.dir/build.make LRT/CMakeFiles/test_static_cube.dir/build
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/test_static_cube.dir/build.make LRT/CMakeFiles/test_static_cube.dir/build
 .PHONY : test_static_cube/fast
 
 # target to build an object file
 FrameBuffer.o:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/FrameBuffer.o
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/FrameBuffer.o
 .PHONY : FrameBuffer.o
 
 # target to preprocess a source file
 FrameBuffer.i:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/FrameBuffer.i
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/FrameBuffer.i
 .PHONY : FrameBuffer.i
 
 # target to generate assembly for a file
 FrameBuffer.s:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/FrameBuffer.s
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/FrameBuffer.s
 .PHONY : FrameBuffer.s
 
 # target to build an object file
 FrameBuffer/GLTextureFB.o:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/FrameBuffer/GLTextureFB.o
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/FrameBuffer/GLTextureFB.o
 .PHONY : FrameBuffer/GLTextureFB.o
 
 # target to preprocess a source file
 FrameBuffer/GLTextureFB.i:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/FrameBuffer/GLTextureFB.i
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/FrameBuffer/GLTextureFB.i
 .PHONY : FrameBuffer/GLTextureFB.i
 
 # target to generate assembly for a file
 FrameBuffer/GLTextureFB.s:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/FrameBuffer/GLTextureFB.s
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/FrameBuffer/GLTextureFB.s
 .PHONY : FrameBuffer/GLTextureFB.s
 
 # target to build an object file
 FrameBuffer/PBOFrameBuffer.o:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/FrameBuffer/PBOFrameBuffer.o
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/FrameBuffer/PBOFrameBuffer.o
 .PHONY : FrameBuffer/PBOFrameBuffer.o
 
 # target to preprocess a source file
 FrameBuffer/PBOFrameBuffer.i:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/FrameBuffer/PBOFrameBuffer.i
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/FrameBuffer/PBOFrameBuffer.i
 .PHONY : FrameBuffer/PBOFrameBuffer.i
 
 # target to generate assembly for a file
 FrameBuffer/PBOFrameBuffer.s:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/FrameBuffer/PBOFrameBuffer.s
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/FrameBuffer/PBOFrameBuffer.s
 .PHONY : FrameBuffer/PBOFrameBuffer.s
 
 # target to build an object file
 Init.o:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/Init.o
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/Init.o
 .PHONY : Init.o
 
 # target to preprocess a source file
 Init.i:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/Init.i
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/Init.i
 .PHONY : Init.i
 
 # target to generate assembly for a file
 Init.s:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/Init.s
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/Init.s
 .PHONY : Init.s
 
 # target to build an object file
 render.o:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/render.o
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/render.o
 .PHONY : render.o
 
 # target to preprocess a source file
 render.i:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/render.i
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/render.i
 .PHONY : render.i
 
 # target to generate assembly for a file
 render.s:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/render.s
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/LRT.dir/build.make LRT/CMakeFiles/LRT.dir/render.s
 .PHONY : render.s
 
 # target to build an object file
 test/api_static_cube/static_cube.o:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/test_static_cube.dir/build.make LRT/CMakeFiles/test_static_cube.dir/test/api_static_cube/static_cube.o
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/test_static_cube.dir/build.make LRT/CMakeFiles/test_static_cube.dir/test/api_static_cube/static_cube.o
 .PHONY : test/api_static_cube/static_cube.o
 
 # target to preprocess a source file
 test/api_static_cube/static_cube.i:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/test_static_cube.dir/build.make LRT/CMakeFiles/test_static_cube.dir/test/api_static_cube/static_cube.i
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/test_static_cube.dir/build.make LRT/CMakeFiles/test_static_cube.dir/test/api_static_cube/static_cube.i
 .PHONY : test/api_static_cube/static_cube.i
 
 # target to generate assembly for a file
 test/api_static_cube/static_cube.s:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/test_static_cube.dir/build.make LRT/CMakeFiles/test_static_cube.dir/test/api_static_cube/static_cube.s
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(MAKE) -f LRT/CMakeFiles/test_static_cube.dir/build.make LRT/CMakeFiles/test_static_cube.dir/test/api_static_cube/static_cube.s
 .PHONY : test/api_static_cube/static_cube.s
 
 # Help Target
@@ -300,6 +300,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/matheus-linux/Downloads/Compressed/parsec-3.0_sem_altercao/pkgs/apps/raytrace/obj/amd64-linux.gcc && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

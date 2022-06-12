@@ -10,7 +10,7 @@
 #include <string>
 #include <stdlib.h>
 #include <stdio.h>
-#include <omp.h>
+
 #ifdef ENABLE_PARSEC_HOOKS
 #include <hooks.h>
 #endif
@@ -399,11 +399,10 @@ int main(int argc, char* argv[])
     {
       ObjParser parser;
 
-      #pragma omp parallel for schedule(static) num_threads(4)
       for (int fi = 0; fi < nfiles; fi++) {
-	      const string& fn = (*options["files"])[fi];
-	      cout << "Adding obj file: " << fn << endl;
-	      parser.Parse(fn.c_str());
+	const string& fn = (*options["files"])[fi];
+	cout << "Adding obj file: " << fn << endl;
+	parser.Parse(fn.c_str());
       }
 
       RTBox3f sceneAABB = parser.getSceneAABB();
@@ -444,8 +443,7 @@ int main(int argc, char* argv[])
       /* -- transfer materials -- */
       //miniRT.addMaterials(parser.getMaterialPtr(),parser.materials());
       /* -- transfer textures  -- */
-  #pragma omp parallel for schedule(static) num_threads(4)
-  for (int i=0;i<parser.textures();i++)
+      for (int i=0;i<parser.textures();i++)
 	{
 	  ImagePPM *txt = parser.getTexture(i);
 	  //miniRT.addTexture(txt->width(),txt->height(),txt->data(),RT_TEXTURE_FORMAT_RGB_UCHAR);

@@ -8,7 +8,7 @@
 #include "RTTL/Triangle/Triangle.hxx"
 #include "RTTL/Texture/Texture.hxx"
 #include "RTTL/BVH/Builder/OnDemandBuilder.hxx"
-
+#include <omp.h>
 #include "LRT/FrameBuffer.hxx"
 #if USE_PBOS
 #include "LRT/FrameBuffer/PBOFrameBuffer.hxx"
@@ -586,11 +586,12 @@ void Context::buildSpatialIndexStructure()
 int Context::task(int jobID, int threadId)
 {
   const int tilesPerRow = m_threadData.resX >> TILE_WIDTH_SHIFT;
+  //cout<<"entrou no task"<<endl;
   while(1)
     {
       int index = Context::m_tileCounter.inc();
       if (index >= m_threadData.maxTiles) break;
-
+      
       /* todo: get rid of '/' and '%' */
 
       int sx = (index % tilesPerRow)*TILE_WIDTH;
@@ -618,28 +619,41 @@ void Context::renderFrame(Camera *camera,
                          const int resX,const int resY)
 {
     assert(camera);
-  if (m_threadsCreated == false)
+  /*if (m_threadsCreated == false)
     {
-      if (m_threads > 1)
+     if (m_threads > 1)
 	{
 	  cout << "-> starting " << m_threads << " threads..." << flush;
 	  createThreads(m_threads);
 	  cout << "done" << endl << flush;
 	}
       m_threadsCreated = true;
-    }
+    }*/
 
   frameBuffer->startNewFrame();
   initSharedThreadData(camera,resX,resY,frameBuffer);
 
   BVH_STAT_COLLECTOR(BVHStatCollector::global.reset());
 
+  const int tilesPerRow = m_threadData.resX >> TILE_WIDTH_SHIFT;	
   if (m_threads>1)
     {
-      Context::m_tileCounter.reset();
-      startThreads();
-      waitForAllThreads();
+      //#pragma omp parallel for num_threads(m_threads) schedule(dynamic,m_threadData.maxTiles/(tilesPerRow*m_threads))
+      #pragma omp parallel for schedule(dynamic)
+      for (int index =0 ; index < m_threadData.maxTiles; index++){
+        int sx = (index % tilesPerRow)*TILE_WIDTH;
+        int sy = (index / tilesPerRow)*TILE_WIDTH;
+        int ex = min(sx+TILE_WIDTH,m_threadData.resX);
+        int ey = min(sy+TILE_WIDTH,m_threadData.resY);
+
+        if (m_geometryMode == MINIRT_POLYGONAL_GEOMETRY)
+	        renderTile<StandardTriangleMesh,RAY_PACKET_LAYOUT_TRIANGLE>(m_threadData.frameBuffer,sx,sy,ex,ey);
+        else if (m_geometryMode == MINIRT_SUBDIVISION_SURFACE_GEOMETRY)
+	        renderTile<DirectedEdgeMesh,RAY_PACKET_LAYOUT_SUBDIVISION>(m_threadData.frameBuffer,sx,sy,ex,ey);
+        else
+	        FATAL("unknown mesh type");
     }
+  }
   else
     if (m_geometryMode == MINIRT_POLYGONAL_GEOMETRY)
       renderTile<StandardTriangleMesh,RAY_PACKET_LAYOUT_TRIANGLE>(frameBuffer,0,0,resX,resY);
